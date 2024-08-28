@@ -49,4 +49,5 @@ signals and features
 Learning framework
 - Inception network learning figur inn i learning framework, den med alle de ulike lagene stacked. Tror det passer her. 
 
-
+HUSK å referere til:
+Linjie Yang, Ping Luo, Chen Change Loy, Xiaoou Tang. "A Large-Scale Car Dataset for Fine-Grained Categorization and Verification", In Computer Vision and Pattern Recognition (CVPR), 2015.

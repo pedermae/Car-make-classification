@@ -1,0 +1,52 @@
+Hedvigs randomme notes:)
+
+INSERT INRTODUKSJONSVRØVL HER
+NB: obs på at det er car make classification, ikke model, ikke verification. Vi skal bare sortere, ikke "sjekke" en bil opp mot en annen bil. 
+Kan nevnes at det videre kan brukes og utvides til en verification algoritme, naturlig fortsettelse. se compcars beskrivelse for inspo. verification: sjekke om to bilder er samme make/modell etc. 
+
+automated car analysis
+intelligent transportation analysis.
+environment, electric vehicles. 
+automate paying tolls based on different car makes, different prices. 
+surveillance, tracking cars through multiple cameras. 
+tracking consumption of car makes, which are popular in certain areas, demographic. predicting popularity. 
+
+Hva er poenget?
+- Car classification by car make?. 163 different car makes. CompCars.
+- classify a dataset into groups, 
+
+"Image classification is the task that involves categorizing images into a predefined set of classes." fra pp
+
+Hva kan det brukes til?
+- identifisere biler, overvåking, finne savnede biler, tyveri, analysere hvilken biltype folkret kjører, ie markedsføring og nyttig for bedrifer. 
+.- time sensitive, if we want to do it live ,need a fast type of network
+
+Hva skal vi gjøre spesifikt
+- Implementere Inception as main architecture
+- Prøve ulike loss fncs (focal loss, class imbalance)
+- 
+
+EI LITA OVERSIKT OVER ET PAR AV DELENE I RAPPORTEN
+
+Related works
+- En hel kolonne for related work hm. Kan lese noe og skrive noe vrøvl, eller droppe. 
+  https://ieeexplore.ieee.org/document/9954089
+  https://ieeexplore.ieee.org/document/9202415
+- forklare hvorfor det man har gjort er annerledes (og bedre)
+
+processing pipeline
+- diagram av prosessen, i.e. innsamling data --> preprossessing --> classification. Veldig høynivå språk. 
+- tenk modul fra sanntid, såpass høynivå (tror jeg)
+
+signals and features
+- Datasett og beskrivelse av preprosessing
+- ?? Noe om feature extraction and feature vectors fra datasettet, idk
+- hvordan datasettet er delt opp i train, validation and test. --> no overlap
+
+- web-nature data, full images only? eller med noen car parts også, eller er det car parts classification? JA DET ER DET, så bare hele bilder. må bestemme om vi skal bruke sibset eller bare alle mulige. 
+- Kanskje prøve på markedsføring-veien, da er det vel fok som må gå rundt å a bilder, "in the wild", evt også inkludere surveillance kameraer. 
+
+Learning framework
+- Inception network learning figur inn i learning framework, den med alle de ulike lagene stacked. Tror det passer her. 
+
+

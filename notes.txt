@@ -1,5 +1,11 @@
 Hedvigs randomme notes:)
 
+TODO
+- kjøre med mange epoker. 
+- Ny loss function? Focal loss?
+- Lagre accuracies i lister for å kunne plotte
+- Fikse test loss. 
+
 INSERT INRTODUKSJONSVRØVL HER
 NB: obs på at det er car make classification, ikke model, ikke verification. Vi skal bare sortere, ikke "sjekke" en bil opp mot en annen bil. 
 Kan nevnes at det videre kan brukes og utvides til en verification algoritme, naturlig fortsettelse. se compcars beskrivelse for inspo. verification: sjekke om to bilder er samme make/modell etc. 
